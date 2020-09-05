@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  max-width: 40%;
+  margin: 100px auto;
+}
+
+.newTodo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newTodo-input{
+  width: 65%;
+  margin: 3px;
+  padding: 3.5px;
+}
+
+.btn{
+  outline: none;
+  border: none;
+  padding: 5px;
+  margin: 3px;
+  color: white;
+  background-color: rgb(30, 107, 207);
+}
+
+.submit{
+  width: 30%;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.todo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  margin: 8px;
+  height: 50px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.btns{
+  margin-right: 10px;
+}
+
+.btns:hover{
+  transform: scale(1.05);
+}
+
+.edit,.delete {
+  height: fit-content;
+  padding: 5px 8px;
+  margin: 0;
+  border-radius: 0;
+}
+
+.todo > *{
+  margin-left: 20px;
+}
+
+h1{
+  color: white;
+  background-color: rgb(10, 4, 43);
+  margin-top: 0;
+  width: 100%;
+  text-align:center;
+  padding: 20px;
+  font-family: sans-serif;
+  font-weight: 500;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.4);
+}
